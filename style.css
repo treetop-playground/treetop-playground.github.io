@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Poiret+One');
+body {
+font-family: 'Architects Daughter', cursive;
+  padding:0px;
+  margin:0px;
+  font-size:18px;
+}
+.no-pad {
+  padding:0px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poiret One', cursive;
+}
+.header-bg {
+  background-color: #07374a;
+  color:#25b79f;
+  margin-bottom:10px;
+}
+.logo {
+  font-family: 'Poiret One', cursive;
+  font-weight:900;
+  padding: 0 0 10px 0;
+  float:left;
+}
+ul {
+  float:right;
+  margin:25px 0;
+}
+ul li {
+  display:inline;
+}
+ul li a {
+  font-size:22px;
+  color:#25b79f;
+  padding:25px 10px;
+}
+ul li a:hover {
+  font-size:22px;
+  background-color:#25b79f;
+  color: #07374a;
+  padding:25px 10px;
+}
+a:hover {
+    text-decoration:none;
+}
+h2.title {
+  padding:10px;
+  border-bottom:3px solid #07374a;
+  width:180px;
+  margin: 20px auto;
+  font-weight:700;
+  color:#25b79f;
+}
+figcaption {
+  padding-top:10px;
+}
+.footer-bg {
+  background-color: #07374a;
+  color:#25b79f;
+  padding:10px 0;
+}
+.social {
+  padding: 10px 10px;
+  color: #07374a;
+
+}
+div a:hover {
+  color:#25b79f;
+}
+.social-margin {
+    margin:20px 0;
+  
+}
+.row {
+  margin-right:0px;
+  margin-left:0px;
+}
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+    background-color: #07374a;
+  color:#25b79f;
+  margin-bottom:10px;
+  z-index:99999;
+}
+.img-fig {
+      width: 250px;
+    margin: auto;
+}

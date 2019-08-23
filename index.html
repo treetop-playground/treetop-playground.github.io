@@ -5,6 +5,7 @@
   <title>Treetop Playground</title>
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://files.codepedia.info/files/uploads/iScripts/html2canvas.js"></script>
     <link rel="stylesheet" href="style.css">
 <body>
 <div class="container-fluid no-pad">
@@ -37,7 +38,7 @@
                         htmlString += '<div class="col-sm-3">';
                         htmlString += '<div class="well">';
                         htmlString += '<figure class="img-fig">';
-                        htmlString += '<img src="http://via.placeholder.com/250x250" alt="portfolio" />';
+                        htmlString += `<img src="https://treetop-playground.github.io/${repo.name}/screenshot_thumb.png" alt="previewImage" />`;
                         htmlString += '<figcaption class="text-center">';
                         htmlString += `<a href="https://treetop-playground.github.io/${repo.name}">${repo.name}</a>`;
                         htmlString += "</figcaption>";
